@@ -1,12 +1,12 @@
 <Configuration>
-    <MappedFolders>
-        <MappedFolder>
-            <HostFolder>YOUR HOST PATH HERE</HostFolder>
-            <SandboxFolder>C:\scripts</SandboxFolder>
-            <ReadOnly>false</ReadOnly>
-        </MappedFolder>
-    </MappedFolders>
-    <LogonCommand>
-        <Command>C:\scripts\Data\InstallHelper.cmd</Command>
-    </LogonCommand>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>%USERPROFILE%</HostFolder>
+      <SandboxFolder>C:\scripts</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>C:\scripts\Data\InstallHelper.cmd</Command>
+  </LogonCommand>
 </Configuration>

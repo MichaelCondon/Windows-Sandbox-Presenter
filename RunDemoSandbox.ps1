@@ -7,13 +7,14 @@ Invoke-WebRequest -Uri "https://go.microsoft.com/fwlink/p/?LinkID=869426&clcid=0
 Write-Output "Downloading ZoomIt, please wait"
 Invoke-WebRequest -Uri "https://live.sysinternals.com/ZoomIt.exe" -OutFile "Data\Zoomit.exe"
 
+$usrPath = $env:USERPROFILE + "\Desktop\Windows-Sandbox-Presenter"
+
 $sandBox = "Data\TeamsDemo.wsb"
 [xml]$xmlDoc = Get-Content $sandBox
+#The WSB file is basically XML, I find the HostFolder tag and replace the generic %Userprofile% variable with one locally calculated
+$xmlDoc.SelectNodes("//HostFolder") | % { 
+    $_."#text" = $_."#text".Replace("%USERPROFILE%",$usrPath) 
+    }
 
-$usrPath = $env:USERPROFILE + "\Desktop\Sandbox Config"
-
-Write-Output $usrPath
-
-$xmlDoc.Configuration.MappedFolders.MappedFolder.HostFolder = $usrPath
-
+$xmlDoc.Save($usrPath + "\Data\TeamsDemo.wsb")
 Invoke-Item "Data\TeamsDemo.wsb"
