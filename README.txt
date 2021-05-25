@@ -1,14 +1,7 @@
 How to use this config:
-Move this folder to your Desktop and make sure it has the name "Sandbox Config".
+Make sure you have Windows Sandbox active on your PC
 
-Make sure that Windows Sandbox is enabled in your Windows Installation:
-Open Windows Features, and then select Windows Sandbox. 
-Select OK to install Windows Sandbox. You might be asked to restart the computer.
+Clone this repo to your desktop
 
-Right click the "RunThisFirst" script which downloads Teams and run it,
-make sure you wait until it closes (a few minutes usually)
-
-Double click the "TeamsDemo" file, this should open a windows 10 sandbox and install
-Teams, allowing you to log in with your demo tennant user.
-
+Run the "RunDemoSandbox" file to download Teams, and Zoomit, it will automatically launch your sandbox and install those applications
 
