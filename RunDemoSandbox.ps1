@@ -5,7 +5,7 @@ Write-Output " "
 Write-Output "Downloading Teams, please wait"
 Invoke-WebRequest -Uri "https://go.microsoft.com/fwlink/p/?LinkID=869426&clcid=0xc09&culture=en-au&country=AU&lm=deeplink&lmsrc=groupChatMarketingPageWeb&cmpid=directDownloadWin64" -OutFile "Data\Teams.exe"
 Write-Output "Downloading ZoomIt, please wait"
-Invoke-WebRequest -Uri "https://live.sysinternals.com/ZoomIt.exe" -OutFile "Data\Zoomit.exe"
+Invoke-WebRequest -Uri "https://live.sysinternals.com/ZoomIt64.exe" -OutFile "Data\Zoomit.exe"
 
 $usrPath = $env:USERPROFILE + "\Desktop\Windows-Sandbox-Presenter"
 
