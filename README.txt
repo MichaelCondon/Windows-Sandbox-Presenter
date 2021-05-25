@@ -1,14 +1,7 @@
 How to use this config:
-Move this folder to your Desktop and make sure it has the name "Windows-Sandbox-Presenter".
+Make sure you have Windows Sandbox active on your PC
 
-Make sure that Windows Sandbox is enabled in your Windows Installation:
-Open Windows Features, and then select Windows Sandbox. 
-Select OK to install Windows Sandbox. You might be asked to restart the computer.
+Clone this repo to your desktop
 
-Run the "RunDemoSandbox" Powershell script, it will first download fresh Microsoft Teams and ZoomIt Binaries
-then it will modify the WSB Sandbox file to match your local user drive to map your desktop to
-the sandbox, and launch the Sandbox File automatically running the .exe files to setup Teams and ZoomIt
-
-
-
+Run the "RunDemoSandbox" file to download Teams, and Zoomit, it will automatically launch your sandbox and install those applications
 
