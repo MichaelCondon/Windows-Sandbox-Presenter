@@ -9,4 +9,6 @@
   <LogonCommand>
     <Command>C:\scripts\Data\InstallHelper.cmd</Command>
   </LogonCommand>
+  <vGPU>Enable</vGPU>
+  <VideoInput>Enable</VideoInput>
 </Configuration>
