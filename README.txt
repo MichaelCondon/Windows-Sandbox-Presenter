@@ -4,7 +4,7 @@ STEP 1: Make sure you have Windows Sandbox active on your PC, Use the search bar
 STEP 2: Clone this repo anywhere on your device
 
 STEP 3:
-Run the "InstallResources" Script. This script copies configuration scripts and the important WSB file to a new directory on your C: drive called "Sandbox"
+Run the "InstallResources" Script. This script copies configuration scripts and the important WSB file to a new directory on your C: drive called "Sandbox". You only have to run this script the first time that you are running this tool - after this first setup you can skip straight to the final step below any time you need the sandbox.
 
 STEP 4:
 Run the "RunDemoSandbox" Script, this will download a fresh copy of Microsoft Teams (https://aka.ms/GetTeams), and ZoomIt (https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit) and copy them to the Sandbox folder, it will then launch the sandbox itself and automatically open Teams and Zoomit
