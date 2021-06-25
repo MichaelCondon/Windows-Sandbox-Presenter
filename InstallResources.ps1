@@ -7,8 +7,10 @@ $dr = $PSScriptRoot + '\Data'
 $ih = $dr + '\InstallHelper.cmd'
 $is = $dr + '\InstallStuff.ps1'
 $td = $dr + '\TeamsDemo.wsb'
+$wp = $dr + '\WP.jpeg'
 
 New-Item -Path "c:\" -Name "Sandbox" -ItemType "directory"
 Copy-Item -Path $ih -Destination C:\Sandbox
 Copy-Item -Path $is -Destination C:\Sandbox
 Copy-Item -Path $td -Destination C:\Sandbox
+Copy-Item -Path $wp -Destination C:\Sandbox
