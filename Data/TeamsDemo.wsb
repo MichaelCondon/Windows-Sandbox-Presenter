@@ -7,7 +7,7 @@
     </MappedFolder>
   </MappedFolders>
   <LogonCommand>
-    <Command>C:\scripts\Data\InstallHelper.cmd</Command>
+    <Command>C:\scripts\InstallHelper.cmd</Command>
   </LogonCommand>
   <vGPU>Enable</vGPU>
   <VideoInput>Enable</VideoInput>

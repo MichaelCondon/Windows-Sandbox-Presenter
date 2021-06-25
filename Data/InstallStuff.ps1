@@ -1,5 +1,5 @@
-& "C:\scripts\Data\Zoomit.exe"
-& "C:\scripts\Data\Teams.exe"
+& "C:\scripts\Zoomit.exe"
+& "C:\scripts\Teams.exe"
 #Function to change wallpaper by Jose Espitia at https://www.joseespitia.com/2017/09/15/set-wallpaper-powershell-function/
 Function Set-WallPaper($Image) {
 <#
