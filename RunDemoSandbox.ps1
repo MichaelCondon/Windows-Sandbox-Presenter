@@ -13,7 +13,7 @@ function Launch-Sandbox {
     Invoke-Item $sandBox
 }
 function Setup-Sandbox{
-    Write-Output "This script is copying a series of scripts and templates for Sandbox to you C drive"
+    Write-Output "This script is copying a series of scripts and templates for Sandbox to your C drive"
 Write-Output "This will create a folder on your Root C:\ directory titled Sandbox"
 
 #Set the current directory
